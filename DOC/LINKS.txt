@@ -1,0 +1,21 @@
+Project Euler
+http://projecteuler.net/
+
+(Pseudo) NameSpace JavaScript
+http://javascriptweblog.wordpress.com/2010/12/07/namespacing-in-javascript/
+http://addyosmani.com/blog/essential-js-namespacing/
+http://michaux.ca/articles/javascript-namespacing
+http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth
+http://stackoverflow.com/questions/881515/javascript-namespace-declaration
+
+Immediately invoked function expression
+http://benalman.com/news/2010/11/immediately-invoked-function-expression/
+
+divs in plaats van tables
+http://stackoverflow.com/questions/702181/replace-html-table-with-divs
+
+de var weglaten
+http://stackoverflow.com/questions/4385894/javascript-var-or-not-var-whats-the-difference
+
+functies opslaan in een array en weer aanroepen.
+http://stackoverflow.com/questions/899102/how-do-i-store-javascript-functions-in-a-queue-for-them-to-be-executed-eventuall

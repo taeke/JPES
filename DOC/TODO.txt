@@ -1,0 +1,17 @@
+TODO
+====
+- titles en solvers integreren.
+- project op github zetten.
+
+DONE
+====
+- Html en css Project Euler website downloaden.
+- NameSpace in javascript nazoeken en basis opzet maken.
+- Html voor de pagina maken.
+- Javascript voor het maken van de tabel.
+- Verplaatsen Javascript code naar eigen file.
+- Zorgen dat de werkelijke titels van de problemen uit een array komen en dat het een link wordt naar de werkelijke Project Euler site.
+- Code aan de Button die voor elk probleem een eigen oplossing aanroept.
+- Eerste oplossing uitdenken in pseude code.
+- Eerste oplossing implementeren en tonen op de pagina.
+- De website stylen zoals ook Project Euler site is gestyld.
