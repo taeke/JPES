@@ -2,6 +2,7 @@ TODO
 ====
 - Controleren of het nu werkelijk werkt in alle browsers.
 - Tweede probleem oplossen.
+- Link naar home page euler project opnemen in pagina.
 
 DONE
 ====

@@ -1,13 +1,14 @@
 body{font: 90%/normal "Trebuchet MS", sans-serif;}
 table{border-collapse:collapse;width:100%;}
 table, td, th{border:1px solid black;}
+th{text-align:center;}
 tr{height: 30px;}
-td {padding-right:15px; padding-left:15px; }
-h1 {text-align:center;}
+td{padding-right:15px;padding-left:15px;}
+h1{text-align:center;}
 a {color:#787878;}
 a:hover {color:#A8A8A8;}
 .container {margin:0 auto;width:800px;text-align:left;}
-.gridHeader{background-color:#E0E0E0; color:#606060}
+.gridHeader{background-color:#E0E0E0;color:#606060}
 .button {text-align:center;}
 .idColumn {text-align:center;font-weight:bold;}
 .answerColumn {text-align:right;}
