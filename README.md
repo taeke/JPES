@@ -11,6 +11,8 @@ Ik heb me nu voorgenomen om dat nog een keer te herhalen in Javascript. Gewoon p
 
 Het hoeft natuurlijk niet beslist, maar ik heb er ook een website omheen gemaakt om het te presenteren en heb wat help gehad om wat basis kennis html en css op te doen (Bedankt Maurice).
 
+Als je het resultaat wilt bekijken: Open source/html/index.html.
+
 Groet,
 
 Taeke

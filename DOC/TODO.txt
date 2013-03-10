@@ -1,7 +1,7 @@
 TODO
 ====
-- Aanpassen beschrijving.
-- titles en solvers integreren.
+- Controleren of het nu werkelijk werkt in alle browsers.
+- Tweede probleem oplossen.
 
 DONE
 ====
@@ -16,3 +16,5 @@ DONE
 - Eerste oplossing implementeren en tonen op de pagina.
 - De website stylen zoals ook Project Euler site is gestyld.
 - project op github zetten.
+- Aanpassen beschrijving.
+- Titles en solvers integreren.
