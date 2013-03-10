@@ -1,7 +1,7 @@
 TODO
 ====
+- Aanpassen beschrijving.
 - titles en solvers integreren.
-- project op github zetten.
 
 DONE
 ====
@@ -15,3 +15,4 @@ DONE
 - Eerste oplossing uitdenken in pseude code.
 - Eerste oplossing implementeren en tonen op de pagina.
 - De website stylen zoals ook Project Euler site is gestyld.
+- project op github zetten.
