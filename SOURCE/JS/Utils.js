@@ -1,7 +1,7 @@
 var jpesNS = jpesNS || {};
 
 (function(context) {
-	var problems = [{title:"Multiples of 3 and 5",               solver:context.solve1},
+    var problems = [{title:"Multiples of 3 and 5",               solver:context.solve1},
                     {title:"Even Fibonacci numbers",             solver:null},
                     {title:"Largest prime factor",               solver:null},
                     {title:"Largest palindrome product",         solver:null},
@@ -41,13 +41,13 @@ var jpesNS = jpesNS || {};
 	}
 	
 	context.callSolver = function(i) {
-	    if (problems[i].solver==null)
+        if (problems[i].solver==null)
         {
-	        alert("No answer yet.");
+            alert("No answer yet.");
         }
         else
         {		
-		    problems[i].solver.call();
-		}
-	}
+            problems[i].solver.call();
+        }
+    }
 })(jpesNS);   	
