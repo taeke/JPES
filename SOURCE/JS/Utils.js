@@ -7,7 +7,7 @@ var jpesNS = jpesNS || {};
 
 // Koppelt alle code en variabelen aan een pseudo namespace.
 //
-// @param de (context) de pseudo namespace.
+// @param (context) de pseudo namespace.
 (function(context) {
 
     var problems = [{title:"Multiples of 3 and 5",               solver:context.solve1},

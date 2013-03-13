@@ -7,7 +7,7 @@ var jpesNS = jpesNS || {};
 
 // Koppelt alle code en variabelen aan een pseudo namespace.
 //
-// @param de (context) de pseudo namespace.
+// @param (context) de pseudo namespace.
 (function(context) {
 
     // Berekend het antwoord voor http://projecteuler.net/problem=1
