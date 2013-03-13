@@ -1,7 +1,7 @@
 TODO
 ====
-- Controleren of het nu werkelijk werkt in alle browsers.
-- Tweede probleem oplossen.
+- Tonen van de javascript code beter stijlen.
+- Uitzoeken waarom nog niet alle javascript code correct wordt getoond.
 - Link naar home page euler project opnemen in pagina.
 
 DONE
@@ -19,3 +19,7 @@ DONE
 - project op github zetten.
 - Aanpassen beschrijving.
 - Titles en solvers integreren.
+- Controleren of het nu werkelijk werkt in alle browsers.
+- Tweede probleem oplossen.
+- Derde probleem oplossen.
+- Uitzoeken of ik de javascript code van de oplossing ook in HTML kan weergeven.

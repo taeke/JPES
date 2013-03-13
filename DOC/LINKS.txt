@@ -19,3 +19,6 @@ http://stackoverflow.com/questions/4385894/javascript-var-or-not-var-whats-the-d
 
 functies opslaan in een array en weer aanroepen.
 http://stackoverflow.com/questions/899102/how-do-i-store-javascript-functions-in-a-queue-for-them-to-be-executed-eventuall
+
+Overlay voor tonen code
+http://stackoverflow.com/questions/2941189/how-to-overlay-one-div-over-another-div

@@ -5,10 +5,16 @@
 <title>JPES JavaScript Project Euler Solver</title>
 </head>
 <body onload="jpesNS.loadTable()">
+<div id="overlay"></div>
+<div id="source">
+<button onmousedown="jpesNS.toggleOverlay()">Close</button>
+<h1>Source</h1> 
+<div id="sourceViewer"></div>
+</div>
 <div class="container">
 <h1>JPES JavaScript Project Euler Solver</h1>
 <table id="grid">
-<tr class="gridHeader"><th class="iDHeader">ID</th><th>Description / Title</th><th class="solutionHeader">Solution</th><th class="answerHeader">Answer</th></tr>
+<tr class="gridHeader"><th class="iDHeader">ID</th><th>Description / Title</th><th class="solutionHeader">Solution</th><th class="answerHeader">Answer</th><th class="sourceHeader">Source</th></tr>
 </table>
 </div>
 <script src="../JS/Solver1.js"></script>

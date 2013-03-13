@@ -50,6 +50,8 @@ var jpesNS = jpesNS || {};
                 cell3.innerHTML = "<div class=\"button\"><button onclick=\"jpesNS.callSolver(" + (i - 1) + ")\">Solve</button></div>";
                 var cell4 = row.insertCell(3);
                 cell4.id = "Answer" + i;
+                var cell5 = row.insertCell(4);
+                cell5.innerHTML = "<button onclick=\"jpesNS.toggleOverlay(" + (i - 1) + ")\">Source</button>";
             }
             i++;
         }
@@ -66,4 +68,39 @@ var jpesNS = jpesNS || {};
             problems[i].solver.call();
         }
     }
+    
+    // Maakt een overlay zichtbaar en een extra div die over de pagina ligt en die de source code van de oplossing toont.
+    // @param (i) het nummer van het probleem.
+    context.toggleOverlay = function (i){
+        var overlay = document.getElementById('overlay');
+        var source = document.getElementById('source');
+        if (overlay && source)
+        {
+            overlay.style.opacity = .6;
+            if(overlay.style.visibility == "visible"){
+                overlay.style.visibility = "hidden";
+                source.style.visibility = "hidden";
+            } else {
+                overlay.style.visibility = "visible";
+                source.style.visibility = "visible";
+                jpesNS.showSource(i);
+            }
+        }
+    }
+    
+    // Rendert de source van de oplossing in de daarvoor beschikbare div.
+    // @param (i) het nummer van het probleem. Als de functie nog niet is gedefinieerd wordt de text "No source available yet." getoond.
+    context.showSource = function (i){
+        var sourceViewer = document.getElementById('sourceViewer');
+        if (sourceViewer)
+        {
+            if (problems[i].solver == null) {
+                sourceViewer.innerHTML = "No source available yet.";
+            }
+            else {       
+                sourceViewer.innerHTML = "<pre>" + problems[i].solver.toString().replace("<", "&lt;") + "</pre>";
+            }
+        }
+    }
+    
 })(jpesNS);     
